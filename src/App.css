@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #FEF0D5;
+}
+
+.color-dark-green {
+    color: #1A5D63;
+}
+
+.color-light-green {
+    color: #00BEB2;
+}
+
+.color-white {
+    color: #FEF0D5;
+}
+
+.color-dark-red {
+    color: #D81E58;
+}
+
+.color-light-red {
+    color: #FE5B68;
+}
+
+.bg-dark-green {
+    background: #1A5D63;
+}
+
+.bg-light-green {
+    background: #00BEB2;
+}
+
+.bg-white {
+    background: #FEF0D5;
+}
+
+.bg-dark-red {
+    background: #D81E58;
+}
+
+.bg-light-red {
+    background: #FE5B68;
+}
+
+a:hover {
+    color: #D81E58;
+}
+
+.select-able:hover {
+    background: #00BEB2;
+}
+
+.title {
+    background: #1A5D63;
+    color: #ffffff;
+}
+
+.arrow-btn {
+    background: #00BEB2;
+    color: #ffffff;
+}
+
+.btn:hover {
+    color: #D81E58;
+}
+
+.click-able {
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.calendar-col-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.calendar-box {
+    flex: auto;
+    margin: 0 10px 0 10px;
+}
+
+.calendar-item {
+    flex: 1 1 14%;
+    height: 50px;
+}
+
+.calendar-1u-item {
+    flex: 1;
+    height: 50px;
+}
+
+.calendar-10u-item {
+    flex: 10;
+    height: 50px;
+}
+
+.item {
+    background: #FEF0D5;
+}
+.flat-btn {
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+.align-text-mid {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.dark-text {
+    color: #000000;
+}
+
+.light-text {
+    color: #ffffff;
+}
+
+.calendar-today{
+    background: #D81E58;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.center-item {
+    justify-content: center;
+}
+
+.container-gap {
+    padding: 20px 0 0 0;
+    margin: 10px 0 0 0;
+}
+
+.item-gap {
+    margin: 0 2.5% 10px 2.5%
+}
+
+.round-border {
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.content {
+    flex: 1;
+}
+
+.gap-round-3 {
+    margin: 3px 3px 3px 3px
+}
+.round-gap {
+    margin: 20px 20px 20px 20px
+}
+
+.top-gap {
+    margin: 20px 0 0 0
+}
+
+.bottom-gap {
+    margin: 0 0 20px 0
+}
+
+.lc-gap {
+    margin: 5px 0 5px 5px;
+}
+
+.form-card {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 20px 10px 20px 10px;
+    padding: 20px 10px 20px 10px;
+    background: #FEF0D5;
+}
+
+.polar-align {
+    justify-content: space-between;
+}
